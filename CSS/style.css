@@ -18,10 +18,10 @@ header h2{
     margin-top: 20px;
 }
 
-.section1, .section2{
-    height: 280px;
+section{
+    /* height: 280px; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin: 0 20px 0 20px;
+    margin: 20px;
     border-radius: 10px;
     padding: 30px 10px;
 }
@@ -32,23 +32,25 @@ header h2{
     border-radius: 10px;
     margin-top: 15px;
 }
-
-.section2{
-    height: 230px;
-    margin: 15px 20px 15px 20px;
-    padding: 30px 10px;
+.circle .img1{
+     height: 300px;
+    border-radius: 100%;
+}
+.oval .img1{
+    border-radius: 50% / 25%;
 }
 
 table{
     width: 100%;
     border-collapse: collapse;
     border: white;
+    margin-top: 15px;
 }
 thead{
     background-color: #3a7bec;
     color: white;
 }
-.th2{
+.score-span{
     padding: 10px;
     border: 1px solid #ddd;
     text-align: center;
@@ -59,24 +61,11 @@ td{
     text-align: center;
 }
 
-.section3, .section4{
-    height: 390px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin: 15px 20px 15px 20px;
-    border-radius: 10px;
-    padding: 30px 10px;
-}
-
-.section4{
-    height: 500px;
-}
-
 form{
     margin: 0 auto;
     width: 600px;
-    /* background-color: #3a7bec; */
 }
-.in-sec3, select{
+.custom-input, select{
     height: 35px;
     width: 100%;
     border-radius: 7px;
@@ -84,7 +73,7 @@ form{
     margin: 5px 0;
     padding: 10px;
 }
-.in-sec3-file{
+.upload-file{
      height: 35px;
     width: 100%;
     border-radius: 7px;
@@ -116,7 +105,7 @@ select{
     margin-bottom: 5px!important;
 }
 .g-redio{
-    margin: 10px 0px;
+    margin: 10px 0px 5px 0px;
 }
 .checkbox{
     margin: 0px 5px 0px 10px;
@@ -127,44 +116,9 @@ select{
 #message{
     height: 100px;
 }
-.ad-table{
-    margin: 0px 0px 15px 0px;
+.label-bold{
+    font-weight: bold;
 }
 
-.box{
-    /* height: 150px; */
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin: 15px 20px 15px 20px;
-    border-radius: 10px;
-    padding: 30px 200px 30px;
-}
 
-.section5{
-    height: 350px;
-    margin: 0px 20px;
-    background-image: url(https://www.wearegecko.co.uk/media/50316/mountain-3.jpg);
-    background-size: cover;
-    background-position: center;
-    /* background-repeat: calc(2); */
-    padding: 50px;
-    border: 3px dashed red;
-    /* background: url(https://www.wearegecko.co.uk/media/50316/mountain-3.jpg) no-repeat center center / cover; */
-}
-.section5 ul{
-    padding-left: 50px;
-    margin-top: 20px;
-}
-.section5 li{
-    color: red;
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-.link-style{
-    margin: 20px 20px;
-    color: blue;
-    text-decoration: none;
-}
-.link-style:hover{
-    color: red;
-    text-decoration: underline;
-}
+

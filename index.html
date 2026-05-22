@@ -21,15 +21,27 @@
                 <img src="image/img1.webp" alt="Image 1" class="img1">
             </div>
         </section>
+        <section>
+            <div class="section1 circle">
+                <h3>Image Circle</h4>
+                <img src="image/img1.webp" alt="Image 1" class="img1">
+            </div>
+        </section>
+        <section>
+            <div class="section1 oval">
+                <h3>Image Oval</h4>
+                <img src="image/img1.webp" alt="Image 1" class="img1">
+            </div>
+        </section>
 
         <section>
-            <div class="section2">
+            <div>
                 <h3 class="ad-table">Advanced Table</h3>
                 <table border="1" cellpadding="10" cellspacing="0">
                     <thead>
                         <tr>
                             <th rowspan="2">Name</th>
-                            <th colspan="2" class="th2">Scores</th>
+                            <th colspan="2" class="score-span">Scores</th>
                             <th rowspan="2">Grade</th>
                         </tr>
                         <tr>
@@ -56,18 +68,18 @@
         </section>
 
         <section>
-            <div class="section3">
+            <div>
                
                 <form action="">
                      <h2 style="margin-bottom: 15px;">Form 1: Basic Info</h2>
-                    <label for="name">Name <span style="color: red;">*</span></label><br>
-                    <input type="text" id="name" name="name" class="in-sec3"><br>
-                    <label for="email">Email <span style="color: red;">*</span></label><br>
-                    <input type="email" id="email" name="email" class="in-sec3"><br>
-                    <label for="password">Password <span style="color: red;">*</span></label><br>
-                    <input type="password" id="password" name="password" class="in-sec3"><br>
-                     <label for="file">Upload File</label><br>
-                   <div class="in-sec3-file">
+                    <label for="name" class="label-bold">Name <span style="color: red;">*</span></label><br>
+                    <input type="text" id="name" name="name" class="custom-input"><br>
+                    <label for="email" class="label-bold">Email <span style="color: red;">*</span></label><br>
+                    <input type="email" id="email" name="email" class="custom-input"><br>
+                    <label for="password" class="label-bold">Password <span style="color: red;">*</span></label><br>
+                    <input type="password" id="password" name="password" class="custom-input"><br>
+                     <label for="file" class="label-bold">Upload File</label><br>
+                   <div class="upload-file">
                     <input type="file" id="file" name="file"><br> 
                    </div>
                     <input type="submit" value="Submit" class="btn">
@@ -77,25 +89,25 @@
             </div>
         </section>
         <section>
-            <div class="section4">
+            <div>
                
                 <form action="">
                      <h2 style="margin-bottom: 15px;">Form 2: Survey Form</h2>
-                    <label for="course">Choose Course <span style="color: red;">*</span></label><br>
+                    <label for="course" class="label-bold">Choose Course <span style="color: red;">*</span></label><br>
                    <select id="course" name="course">
                     <option value="select">Select</option>
                     <option value="select">HTML</option>
                     <option value="select">CSS</option>
                     <option value="select">JavaScript</option>
                    </select><br>
-                    <label class="gender">Gender</label>
+                    <label class="gender label-bold">Gender</label>
                     <div class="g-redio">
                         <input type="radio" id="male" name="gender" value="male">
                         <label for="male" class="male">Male</label>
                         <input type="radio" id="female" name="gender" value="female">
                         <label for="female">Female</label><br>
                     </div>
-                     <label class="gender">Skills</label>
+                     <label class="gender label-bold">Skills</label>
                      <div class="g-redio">
                         <input type="checkbox" id="hobby1" name="hobby" value="reading" class="checkbox1">
                         <label for="hobby1">Reading</label>
@@ -104,10 +116,10 @@
                         <input type="checkbox" id="hobby3" name="hobby" value="coding" class="checkbox">
                         <label for="hobby3">Coding</label><br>
                      </div>
-                     <label for="phone">Phone <span style="color: red;">*</span></label><br>
-                    <input type="tel" id="phone" name="phone" class="in-sec3"><br>
-                     <label for="message">Message</label><br>
-                    <textarea id="message" name="message" class="in-sec3"></textarea><br>
+                     <label for="phone" class="label-bold">Phone <span style="color: red;">*</span></label><br>
+                    <input type="tel" id="phone" name="phone" class="custom-input"><br>
+                     <label for="message" class="label-bold">Message</label><br>
+                    <textarea id="message" name="message" class="custom-input"></textarea><br>
 
                     <input type="submit" value="Send" class="btn">
                     
@@ -116,29 +128,8 @@
             </div>
         </section>
 
-        <div class="box">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, atque perspiciatis. Dolor, aut accusantium modi laudantium illum, ea deleniti soluta optio nesciunt ipsum veniam labore unde dicta natus molestias nihil!</p>
-        </div>
+        
 
-        <section>
-                <div class="section5">
-                   <h3>In these chapters, you will learn about the following CSS background properties:</h3>
-                   <ul>
-                     <li>background-color</li>
-                     <li>background-image</li>
-                     <li>background-repeat</li>
-                     <li>background-attachment</li>
-                    <li>background-position</li>
-                    <li>background(shorthand property)</li>
-                   </ul>
-                </div>
-        </section>
-
-        <a href="" class="link-style">link style</a>
-
-        <h1>My Website</h1>
-        <h1>Hello world</h1>
-        <h1>Hello world 2</h1>
     </main>
 </body>
 </html>
